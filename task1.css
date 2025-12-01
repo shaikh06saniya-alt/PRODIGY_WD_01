@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: transparent;
+    padding: 15px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+    z-index: 1000;
+}
+
+nav.scrolled {
+    background: #111;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: yellow;
+}
+
+
+.hero {
+    height: 50vh;
+    background: linear-gradient(to bottom right, #3b0b80, #635bff);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+
+section {
+    padding: 60px 50px;
+}
+
+#about {
+    background-color: #e0f7fa;
+}
+
+#services {
+    background-color: #fff3e0;
+}
+
+#contact {
+    background-color: #e8f5e9;
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+ul li {
+    margin-bottom: 8px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+form input {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+textarea {
+    padding: 10px;
+}
+
+form button {
+    padding: 10px;
+    background: #6c63ff;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #513acf;
+}
